@@ -1,0 +1,84 @@
+{
+  "app": {
+    // "frontendUrl": "http://54.201.160.69:3289/",
+    // "logoUrl": "http://54.201.160.69:3289/assets/img/logo.png",
+    // "facebook": "http://54.201.160.69:3289/img/facebook.svg",
+    // "instagram": "http://54.201.160.69:3289/img/instagram.svg",
+    // "linkedin": "http://54.201.160.69:3289/img/linkedin.svg",
+    // "twitter": "http://54.201.160.69:3289/img/twitter.svg",
+    // "whiteLogo": "http://54.201.160.69:3289/img/white-logo.png",
+    "frontendUrl": "https://hefson.app/",
+    "name": "Application",
+    "host": "https://hefson.app",
+    "swaggerURL": "https://hefson.app/",
+    "swaggerPort": "hefson.app/",
+    "port": 3288,
+    "socket": 3288,
+    "debug": true,
+    "logLevel": "debug",
+    "jwtAlgo": "HS512",
+    "jwtKey": "truckingTool-project",
+    "Stripe_Publishable_key": "pk_test_e8KEEseg5w947K4Tm7WXGyP300QOFZc2yL",
+    "Stripe_Secret_key": "sk_test_OHRXUu5cYNmm8GyXYOPhThd5002m3Wsc4Z",
+    "AWS_REGION": "me-south-1"
+    // "BUCKET_NAME": "starinuser",
+    // "S3_ACCESSKEY": "AKIAZ3KTMOBRRMK6E4EC",
+    //  "S3_SECRETKEY": "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"
+  },
+  "db": {
+    "name": "TruckingToolApplication",
+    "host": "3.140.54.7",
+    //"host":"localhost",
+    //"auth": false,
+    "auth": true,
+    "username": "TruckingToolApplication",
+    "password": "DBdhsdru4842",
+    "dbport": 41041,
+    "mongoose": {
+      "useMongoClient": true,
+      "autoIndex": true, // Don't build indexes
+      "poolSize": 10,
+      // If not connected, return errors immediately rather than waiting for reconnect
+      "bufferMaxEntries": 0
+    }
+  },
+  "ios": {
+    "cert": "",
+    "key": "",
+    "gateway": "gateway.sandbox.push.apple.com",
+    "production": true
+  },
+  "android": {
+    "senderId": "",
+    "apiKey": ""
+  },
+  "twillio": {
+    "sid": "",
+    "token": "",
+    "number": ""
+  },
+  "smtp": {
+    // "smtpUser": "akashsatisdd@gmail.com",
+    // "smtpPass": "taknigvfbfmpgaab",
+    // "smtpPort": 587, //25,
+    // "smtpServer": "smtp.gmail.com",
+    // "mailFrom": "sddmg.sdei@gmail.com"
+    "smtpUser": "shipments@hefson.com",
+    "smtpPass": "Hefson123!",
+    "smtpPort": 587, //25,
+    "smtpServer": "smtp.office365.com",
+    "mailFrom": "shipments@hefson.com"
+  },
+  "zoom": {
+    "key": "hHitI9SJT0Kd35mSvSgxIw",
+    "secret": "qAr7cw8nHyUeN8hYVfuceFKaVoCdsHolqzOS"
+  },
+  "s3": {
+    "bucketName": "hefson",
+    "dirName": "images",
+    "region": "ca-central-1",
+    "accessKeyId": "AKIAQJEVMXTFQ7F5KPOL",
+    "secretAccessKey": "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",
+    "s3Url": "https://999999999999.signin.aws.amazon.com/console"
+  }
+}
